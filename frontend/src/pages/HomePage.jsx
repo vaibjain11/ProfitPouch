@@ -12,22 +12,6 @@ import { GET_TRANSACTION_STATISTICS } from "../graphql/queries/transaction.query
 import { GET_AUTHENTICATED_USER } from "../graphql/queries/user.query";
 import { useEffect, useState } from "react";
 
-// const chartData = {
-// 	labels: ["Saving", "Expense", "Investment"],
-// 	datasets: [
-// 		{
-// 			label: "%",
-// 			data: [13, 8, 3],
-// 			backgroundColor: ["rgba(75, 192, 192)", "rgba(255, 99, 132)", "rgba(54, 162, 235)"],
-// 			borderColor: ["rgba(75, 192, 192)", "rgba(255, 99, 132)", "rgba(54, 162, 235, 1)"],
-// 			borderWidth: 1,
-// 			borderRadius: 30,
-// 			spacing: 10,
-// 			cutout: 130,
-// 		},
-// 	],
-// };
-
 ChartJS.register(ArcElement, Tooltip, Legend);
 
 const HomePage = () => {
@@ -64,8 +48,8 @@ const HomePage = () => {
 
 			categories.forEach((category) => {
 				if (category === "saving") {
-					backgroundColors.push("rgba(75, 192, 192)");
-					borderColors.push("rgba(75, 192, 192)");
+					backgroundColors.push("rgba(75, 192, 75)");
+					borderColors.push("rgba(75, 192, 75)");
 				} else if (category === "expense") {
 					backgroundColors.push("rgba(255, 99, 132)");
 					borderColors.push("rgba(255, 99, 132)");
