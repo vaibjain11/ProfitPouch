@@ -20,8 +20,8 @@ services:
     depends_on:
       - mongo
     environment:
-      - MONGO_URI=
-      - SESSION_SECRET=
+      - MONGO_URI=${MONGO_URI}
+      - SESSION_SECRET=${SESSION_SECRET}
     volumes:
       - .:/app
       - /app/node_modules
