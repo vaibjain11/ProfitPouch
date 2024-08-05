@@ -1,8 +1,8 @@
-# Travel Expense Manager App
+# Profit Pouch App
 
-![image](https://github.com/user-attachments/assets/57960416-9b38-4ed6-98e2-e5b3af2a2f7f)
+![image](https://github.com/user-attachments/assets/db90de6f-c478-46bb-a307-2f2f1ea86c12)
 
-Welcome to the **Travel Expense Manager App**! This project is designed to help you manage your travel expenses efficiently using a modern tech stack and GraphQL. You can find it deployed here: https://travelexpensemanager.onrender.com/
+Welcome to the **Profit Pouch App**! This project is designed to help you manage your expenses efficiently using a modern tech stack and GraphQL. You can find it deployed here: https://travelexpensemanager.onrender.com/
 
 ## 🌟 Features
 
