@@ -24,7 +24,7 @@ To build the application, run:
 ```bash
 npm run build
 ```
-Start the App
+### Start the App
 To start the application, run:
 
 ```bash
